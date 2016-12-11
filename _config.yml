@@ -4,6 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: It's alex's blog
+author: Alex Miller
 email: alex@alex-miller.co
 description: > # this means to ignore newlines until "baseurl:"
   This is Alex's blog.  It probably contains topics on stuff like Ruby on Rails,
@@ -12,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.alex-miller.co"
 twitter_username: apmiller108
 github_username:  apmiller108
+website: "http://www.alex-miller.co"
 sass:
   sass_dir: _sass
 
