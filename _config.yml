@@ -13,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.alex-miller.co"
 twitter_username: apmiller108
 github_username:  apmiller108
+linkedin: https://www.linkedin.com/in/alex-miller-551b0b59
 website: "http://www.alex-miller.co"
 sass:
   sass_dir: _sass
