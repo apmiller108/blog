@@ -1,9 +1,11 @@
 ---
 layout: post
+comments: true
 title:  "What Can Daru Do For You?"
 date:   2016-12-23 21:38:35 -0500
 categories: ruby 
 ---
+Data Analysis in RUby
 
 At my job, I started work on a client project that was rather number intensive.  We were going to have to perform repetitive calculations over a dataset.  A colleague introduced me to the concept of data frames and the Ruby gem Daru.
 
