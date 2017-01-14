@@ -196,6 +196,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 114)
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag
   json
   minima (~> 2.0)
 

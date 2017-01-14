@@ -26,4 +26,5 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude: [vendor/bundle, Gemfile, Gemfile.lock]
