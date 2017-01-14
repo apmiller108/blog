@@ -7,8 +7,8 @@ title: It's alex's blog
 author: Alex Miller
 email: alex@alex-miller.co
 description: > # this means to ignore newlines until "baseurl:"
-  This is Alex's blog.  It probably contains topics on stuff like Ruby on Rails,
-  AngularJS, Elixir, ...
+  This is Alex Miller's blog.  It contains posts on topics like Ruby,
+  AngularJS, and Elixir.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.alex-miller.co"
 twitter_username: apmiller108
@@ -17,7 +17,7 @@ linkedin: https://www.linkedin.com/in/alex-miller-551b0b59
 website: "http://www.alex-miller.co"
 disqus: 
   shortname: "blog-alex-miller"
-til: "https://alex-til.herokuapp.com"
+# til: "https://alex-til.herokuapp.com"
 sass:
   sass_dir: _sass
 

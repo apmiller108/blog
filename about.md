@@ -4,6 +4,9 @@ title: who's alex?
 permalink: /about/
 ---
 
-Hi, I'm Alex Miller. I build web apps. 
+I build web applications in Ruby on Rails and AngularJS. Currently, I
+write code for [Trim Agency][Trim].
+I like learning new things, which lately has been Elixir, Phoenix and 
+Angular 2.
 
-I like it. It's fun.
+[Trim]: http://www.trimagency.com
