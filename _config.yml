@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is Alex Miller's blog.  It contains posts on topics like Ruby,
   Angular, Elixir and Emacs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.alex-miller.co"
+url: "https://blog.alex-miller.co"
 twitter_username: apmiller108
 github_username:  apmiller108
 linkedin: https://www.linkedin.com/in/alex-miller-551b0b59
