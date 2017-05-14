@@ -5,11 +5,11 @@ title:  "Setting Default Headers in Angular"
 date:   2017-05-13 00:00:00 -0500
 categories: angular
 ---
-
 When building an Angular app, the chances are high that you're going to 
 need to set the same headers for most, if not all, of your service 
 class' API requests. In this post, I'm going to demonstrate how to set
-default headers both statically and dynamically.
+default headers both statically and dynamically. The examples below were done
+using Angular 4.0.0.
 
 ### Setting Request Headers in a Service Class ###
 For setting headers in a one-off request, we can just define headers as
