@@ -8,7 +8,7 @@ categories: angular
 
 When building an Angular app, the chances are high that you're going to 
 need to set the same headers for most, if not all, of your service 
-classes API requests. In this post, I'm going to demonstrate how to set
+class' API requests. In this post, I'm going to demonstrate how to set
 default headers both statically and dynamically.
 
 ### Setting Request Headers in a Service Class ###
