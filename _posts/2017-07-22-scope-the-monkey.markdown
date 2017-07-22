@@ -5,6 +5,7 @@ title:  "Scope the Monkey"
 date:   2017-07-22 00:00:00 -0500
 categories: ruby 
 ---
+![monkey patch](/assets/images/monkey-patch.jpg)
 This post is about limiting the scope of "monkey patches" with Ruby's Refinements.
 This is certainly nothing new - there are numerous blogs posts and talks on this topic
 if you just Google around a bit.  Despite Refinements having been around in Ruby since
@@ -27,7 +28,6 @@ class String
   end
 end
 {% endhighlight %}
-
 In this example, the `String` class is re-opened and the `randomize` method is added.
 Doing this affects every existing instance of `String` and all new instances going forward.
 This works because instance methods are stored in the class object.
@@ -81,7 +81,7 @@ To activate Refinement call `using`:
 using StringExtensions
 {% endhighlight %}
 
-We can do this inside a module or class so that our patch is only active inside module
+We can do this inside a module or class so that our patch is only active inside a module
 or class definition.
 
 {% highlight ruby %}
@@ -98,7 +98,7 @@ Scramble.call('monkey')
 
 A Refinement is active is two places:
 1. Inside the `refine` block itself
-2. The code where `using` was called until the end of the definition if inside a module or
+2. Starting at the place in the code where `using` was called until the end of the definition if inside a module or
 class.
 
 ## Some Gotchas
@@ -132,5 +132,9 @@ due to coercion, but we're actually still adding `1` and not `1.0`.  That's beca
 
 * calling `using` directly in IRB at the moment doesn't work.  You can learn more about 
 this [here](https://bugs.ruby-lang.org/issues/9580).
+
+Refinements are an easy way to limit the scope of our "monkey patches", thereby making them much
+safer to implement. We can avoid unexpected results that can come with making global changes to our code, 
+yet still take advantage of Open Classes.
 ## Resources 
 * [Ruby docs on Refinements](https://ruby-doc.org/core-2.4.1/doc/syntax/refinements_rdoc.html)
