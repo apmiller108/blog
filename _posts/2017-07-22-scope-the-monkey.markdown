@@ -17,7 +17,7 @@ As usual, to understand a thing, we need to understand the problem that thing is
 meant to solve.
 
 # Open Classes
-Open Classes, more commonly known as 'monkey patching', is a meta programming technique 
+The Open Class technique, more commonly known as 'monkey patching', is a meta programming technique 
 that lets the developer add new methods (or change existing ones) to a class at run-time.
 For example:
 
