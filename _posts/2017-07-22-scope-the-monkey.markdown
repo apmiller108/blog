@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Scope the Monkey"
+title:  "Scope the Monkey: Refinements in Ruby"
 date:   2017-07-22 00:00:00 -0500
 categories: ruby 
 ---
