@@ -3,8 +3,7 @@ layout: page
 title: who's alex?
 permalink: /about/
 ---
-I build web applications in Ruby on Rails and Angular. Currently, I
-write code for [Trim Agency][Trim].
-I like learning new things, which lately has been Elixir.
+I'm a Ruby developer living in South Florida.  Currently, I write code for code
+[Line 5][Line5].
 
-[Trim]: http://www.trimagency.com
+[Line5]: https://line5.com
