@@ -36,7 +36,7 @@ This works because instance methods are stored in the class object.
 str = 'monkey'
 
 begin
-str.scramble 
+str.scramble
 rescue => e
   puts e.message
   #=> undefined method `scramble' for "monkey":String
@@ -48,7 +48,7 @@ class String
   end
 end
 
-puts str.scramble 
+puts str.scramble
 #=> omknye
 {% endhighlight %}
 
