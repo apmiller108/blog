@@ -51,7 +51,7 @@ Alternatively, we can be explicit about which HTTP verbs we want to match by
 using any array of verbs: `via: [:get, :edit]`.
 
 Or if you're too lazy to make a controller and view, you can give it a proc or 
-lambda. asdf asd
+lambda.
 
 ```ruby
 # config/routes.rb at the bottom
@@ -60,8 +60,8 @@ match '*path', to: ->(env) { [404, {}, ['Not Found']] }, via: :all
 ```
 
 **Side Note**
-This works because routes are losely coupled to controllers. Hence, you can pass 
-any object that responds to `.call`, which is a common pattern in `routes.rb`.
+This works because routes are losely coupled to controllers. Hence, a request
+can be handled any object that responds to `.call` and takes a single argument.
 
 ### Resources
 - [Verb Contraints](https://guides.rubyonrails.org/routing.html#http-verb-constraints)
