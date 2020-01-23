@@ -23,7 +23,7 @@ sass:
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
 exclude: [vendor/bundle, Gemfile, Gemfile.lock]
